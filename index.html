@@ -13,8 +13,9 @@
             padding: 0;
         }
         h1 {
-            color: #333;
-            margin-top: 50px;
+            font-family: 'Georgia', serif; /* A new font */
+            color: #2c3e50; /* Darker, more professional color */
+             margin-top: 50px;
         }
         h2 {
             color: #de1d1d;
@@ -28,16 +29,38 @@
             font-size: 0.9em;
             color: #999;
         }
+        /* Navigation Styles */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
         .about, .contact {
-            margin-top: 50px;
-            padding: 20px;
+            margin-top: 50px;  /* Keeps sections spaced apart */
+            padding: 30px;     /* Adds space inside the sections */
             background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
         }
     </style>
 </head>
 <body>
+      <!-- Navigation Bar -->
+      <nav>
+        <a href="#home">Home</a> | 
+        <a href="#about">About</a> | 
+        <a href="#contact">Contact</a>
+    </nav>
     <h1>Welcome to My Website</h1>
     <h2>This is my subtitle </h2>
     <p>This is my first HTML file.</p>
