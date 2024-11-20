@@ -1,0 +1,31 @@
+# Site settings
+title: My Website
+description: A simple website using GitHub Pages
+theme: minima  # Change to your desired theme (e.g., cayman, jekyll-theme-slate)
+
+# Navigation links
+# You can use these to define navigation links in your theme if supported.
+# Example: Replace these paths with your actual page URLs.
+links:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about.html
+  - title: "Contact"
+    url: /contact.html
+
+# Markdown processing options
+markdown: kramdown
+
+# Base URL (if your site is not at the root of your domain, add the subdirectory name here)
+# Leave it empty if your site is hosted at https://username.github.io/
+baseurl: ""
+
+# GitHub repository settings
+github_username: yourusername
+github_repo: your-repository-name
+
+# Plugins (optional - advanced customizations, like adding RSS feeds or SEO)
+plugins:
+  - jekyll-feed  # Generates an RSS feed for your site
+  - jekyll-seo-tag  # Adds SEO-friendly meta tags
